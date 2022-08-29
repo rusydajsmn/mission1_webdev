@@ -1,0 +1,28 @@
+.item1 { grid-area: merah; background-color: #d1717e; color: yellow;}
+.item2 { grid-area: hijau; background-color: #2fa147;}
+.item3 { grid-area: ungu; background-color: #9d74cf;}
+.item4 { grid-area: pinkk; background-color: #fa84d7;}
+.item5 { grid-area: hijauMuda; background-color: #ede468;}
+.item6 { grid-area: biru; background-color: #2fa147;}
+.item7 { grid-area: biruTua; background-color: #529dbf; color: yellow;}
+.item8 { grid-area: jingga; background-color: #edc218;}
+.item9 { grid-area: kuning; background-color: #f5fc2b;}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'merah merah hijau hijau hijau hijau ungu ungu ungu ungu'
+      'merah merah pinkk pinkk hijauMuda hijauMuda hijauMuda hijauMuda hijauMuda hijauMuda'
+      'merah merah pinkk pinkk biru biru biruTua biruTua biruTua biruTua'
+      'jingga jingga pinkk pinkk biru biru biruTua biruTua biruTua biruTua'
+      'jingga jingga kuning kuning kuning kuning biruTua biruTua biruTua biruTua'
+      'jingga jingga kuning kuning kuning kuning biruTua biruTua biruTua biruTua';
+    gap: 0px;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }

@@ -1,0 +1,49 @@
+.logo1{
+    height: 45px;
+    margin: 0%;
+    display: inline;
+    padding-left: 100px;
+    padding-top: 20px;
+    }
+
+header {
+    position: relative;
+    display: block;
+    max-width: 1000px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 10px 50px;
+    color: rgb(117, 114, 114);
+}
+
+nav {
+    padding-left: 0;
+    padding-right: 130px;
+    margin-bottom: 0;
+    padding-top: 20px;
+    list-style: none;
+    float: right;
+    display: inline;
+}
+
+nav li {
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(117, 114, 114);
+    padding: 0px 10px;
+}
+
+nav li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+nav > li > a:hover,
+nav > li > a:focus {
+    text-decoration: none;
+    display: inline-block;
+
+}
